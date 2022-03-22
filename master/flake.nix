@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-spacy-master.flake = false;
+  inputs.src-spacy-master.ref   = "refs/heads/master";
   inputs.src-spacy-master.owner = "treeform";
-  inputs.src-spacy-master.ref   = "master";
   inputs.src-spacy-master.repo  = "spacy";
   inputs.src-spacy-master.type  = "github";
   
